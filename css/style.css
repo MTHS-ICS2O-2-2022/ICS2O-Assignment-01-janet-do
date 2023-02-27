@@ -2,106 +2,69 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: #ffb385 url('https://i.pinimg.com/736x/5c/74/8e/5c748e0570a242f2b57eb71610d942b2.jpg') top left;
-  color: #fff4ed;
-  /* This text is in Courier New */
-}
-
-.class {
-  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-  font-size: 14px;
-}
-
-/* Layout */
-
-#logo {
-  display: block;
-  width: 200px;
-  margin: 40px auto;
-  background: none;
-  /*removes background from a:link*/
-}
-
-#container {
-  width: 760px;
-  margin: 0 auto;
-  padding: 40px;
-  background: url('https://i.pinimg.com/564x/9a/94/58/9a945821fae7f0ea3cb9c026e9f55983.jpg') top left repeat;
-}
-
-#container:after {
-  content: " ";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-#main-content {
-  width: 500px;
-  float: left;
-}
-
-#sidebar {
-  background: url('https://i.pinimg.com/564x/47/c7/74/47c774b8e11b159b1ad16c192ff71e29.jpg') top left repeat;
-  width: 200px;
-  float: left;
-  padding: 20px 20px 0;
-  margin: 0 0 0 20px;
-}
-
-#sidebar h3 {
-  background: url('https://i.pinimg.com/736x/57/84/8d/57848d0c273d22eb3c1d956caf13ba50.jpg') top left repeat;
-  padding: 10px 10px 10px 30px;
-  margin: 0 0 5px;
-  color: white;
-  position: relative;
-  left: -30px;
-}
-
-#sidebar .widget {
-  margin: 0 0 20px;
-}
-
-#sidebar a:link {
-  display: inline-block;
-}
-
-#special-offer {
-  position: relative;
-  background: url('https://i.pinimg.com/736x/52/d8/a4/52d8a4ca9589c5773dc3bae8608277e6.jpg') top left repeat;
-  color: white;
-  padding: 0 20px 20px;
-  margin: 60px 0 0 0;
-}
-
-#special-offer h2 {
-  font-size: 22px;
-  background: url('https://i.pinimg.com/736x/57/84/8d/57848d0c273d22eb3c1d956caf13ba50.jpg') top left repeat;
-  padding: 5px;
-  display: inline;
-  position: relative;
-  top: -15px;
-  left: -35px;
-}
-
-#orange {
-  position: absolute;
-  bottom: -50px;
-  right: 10px;
-}
-
-/* Typography */
-
-h1,
-h2,
-h3 {
-  /* This text is in Impact */
-  font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif;
-  font-weight
+* 
+  body,
+    h1 {
+      font-family: "Raleway", sans-serif;
+    }
+  
+    body,
+    html {
+      height: 100%;
+    }
+  
+    .bgimg {
+      background-image: url('/w3images/forestbridge.jpg');
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+  
+    .w3-display-container {
+      position: relative;
+    }
+  
+    .w3-display-topleft {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  
+    .w3-display-middle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .w3-display-bottomleft {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  
+    .w3-padding-large {
+      padding: 24px;
+    }
+  
+    .w3-text-white {
+      color: #fff;
+    }
+  
+    .w3-animate-opacity {
+      animation: opac 0.8s;
+    }
+  
+    .w3-animate-top {
+      position: relative;
+      animation: animatetop 0.8s;
+    }
+  
+    .w3-jumbo {
+      font-size: 48px;
+    }
+  
+    .w3-border-grey {
+      border-color: #ccc;
+    }
