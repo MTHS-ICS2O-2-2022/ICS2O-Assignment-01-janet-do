@@ -1,70 +1,48 @@
 /* Created by: Janet Do
-* Created on: Sep 2020
-* This file contains the CSS for index.html
+ * Created on: Sep 2020
+ * This CSS file defines the style for index.html ICS2O-Unit1-04-HTML-CSS
 */
-* 
-  body,
-    h1 {
-      font-family: "Raleway", sans-serif;
-    }
-  
-    body,
-    html {
-      height: 100%;
-    }
-  
-    .bgimg {
-      background-image: url('/w3images/forestbridge.jpg');
-      min-height: 100%;
-      background-position: center;
-      background-size: cover;
-    }
-  
-    .w3-display-container {
-      position: relative;
-    }
-  
-    .w3-display-topleft {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-  
-    .w3-display-middle {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-  
-    .w3-display-bottomleft {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-    }
-  
-    .w3-padding-large {
-      padding: 24px;
-    }
-  
-    .w3-text-white {
-      color: #fff;
-    }
-  
-    .w3-animate-opacity {
-      animation: opac 0.8s;
-    }
-  
-    .w3-animate-top {
-      position: relative;
-      animation: animatetop 0.8s;
-    }
-  
-    .w3-jumbo {
-      font-size: 48px;
-    }
-  
-    .w3-border-grey {
-      border-color: #ccc;
-    }
+
+body {
+  background-color: #252525;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* This is the content of the website */
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* This is the border of the content */
+.dashed {
+  border-style: dashed;
+  color: #fff;
+}
+
+/* Fanta image */
+#Alan-Turing{
+  display: block;
+  margin-left: auto;
+  margin-right: 230px;
+  width: 50%;
+}
+
+/* unvisited link */
+a:link {
+  color: #272727;
+}
